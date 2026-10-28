@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>15 Puzzle Game</h1>
+        <p>Arrange the numbers from 1 to 15 in order!</p>
+
+        <div class="game-stats">
+            <p>Moves: <span id="moves">0</span></p>
+            <p>Time: <span id="timer">00:00</span></p>
+        </div>
+
+        <div class="game-buttons">
+            <button id="new-game">New Game</button>
+            <button id="simple-game">Simple Game</button>
+        </div>
+
+        <table id="puzzle-board">
+            <tbody>
+                <tr>
+                    <td id="cell11"></td>
+                    <td id="cell12"></td>
+                    <td id="cell13"></td>
+                    <td id="cell14"></td>
+                </tr>
+                <tr>
+                    <td id="cell21"></td>
+                    <td id="cell22"></td>
+                    <td id="cell23"></td>
+                    <td id="cell24"></td>
+                </tr>
+                <tr>
+                    <td id="cell31"></td>
+                    <td id="cell32"></td>
+                    <td id="cell33"></td>
+                    <td id="cell34"></td>
+                </tr>
+                <tr>
+                    <td id="cell41"></td>
+                    <td id="cell42"></td>
+                    <td id="cell43"></td>
+                    <td id="cell44"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p id="game-message"></p>
+    </div>
+</body>
+</html>
